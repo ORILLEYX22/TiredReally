@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PraactiseForTheTest</title>
+    <link rel="stylesheet" href="Stayela.css">
+</head>
+
+<body>
+    <div id="StoreName">
+    <h2>Shosholoza Super Market</h2>
+</div>
+<div id="Boxes">
+    <div id="Box1" class="Box">
+        <p class="TT">Fruits</p>
+        <ol>
+            <li>Apple</li>
+            <label>
+<input type="checkbox" id="Apple" name="cost" value="3" onclick="Selection()"> R 3.00
+            </label>
+            
+            <li>Orange</li>
+            <label>
+<input type="checkbox" id="Orange" name="cost" value="2" onclick="Selection()"> R 2.00
+            </label>
+            <li>Banana</li>
+            <label>
+<input type="checkbox" id="Banana" name="cost" value="1" onclick="Selection()"> R 1.00
+            </label>
+        </ol>
+
+    </div>
+    <div id="Box2" class="Box">
+        <p class="TT">Desserts</p>
+        <ol>
+            <li>Cake</li>
+            <label>
+<input type="checkbox" id="Cake" name="cost" value="20" onclick="Selection()"> R 20.00
+            </label>        
+            <li>Pie</li>
+            <label>
+<input type="checkbox" id="Pie" name="cost" value="15" onclick="Selection()"> R 15.00
+            </label>           
+            <li>Ice Cream</li>
+            <label>
+<input type="checkbox" id="Ice Cream" name="cost" value="10" onclick="Selection()"> R 10.00
+            </label>
+        </ol>
+
+    </div>
+    <div id="Box3" class="Box">
+        <p class="TT">Drinks</p>
+        <ol>
+            <li>Water</li>
+            <label>
+<input type="checkbox" id="Water" name="cost" value="12" onclick="Selection()"> R 12.00
+            </label>
+            <li>Juice</li>
+            <label>
+<input type="checkbox" id="Juice" name="cost" value="22" onclick="Selection()"> R 22.00
+            </label>
+            <li>Cola</li>
+            <label>
+<input type="checkbox" id="Cola" name="cost" value="25" onclick="Selection()"> R 25.00
+            </label>
+        </ol>
+
+    </div>
+    <div id="Box4" class="Box">
+        <P class="TT">FastFood</P>
+        <ol>
+            <li>Shwarma</li>
+            <label>
+<input type="checkbox" id="Shwarma" name="cost" value="25" onclick="Selection()"> R 25.00
+             </label>
+            <li>Burger</li>
+            <label>
+<input type="checkbox" id="Burger" name="cost" value="30" onclick="Selection()"> R 30.00
+            </label>
+            <li>Gwinya</li>
+            <label>
+<input type="checkbox" id="Gwinya" name="cost" value="5" onclick="Selection()"> R 5.00
+            </label>
+        </ol>
+
+    </div>
+</div><br>
+<div id="ResultBox">
+    <h2 id="Chart">Groccery Chart:</h2>
+    <textarea id="txtA1" name="outputy" rows="4" cols="50" readonly>
+    </textarea>
+ 
+</div>
+<div id="Mali">
+   <label for="Totally">Total:</label>
+    <input type="text"  id="Totally" readonly>
+</div>
+<div id="buttons">
+    <button id="Calc">Calculate</button>
+    <button id="clear" onclick="ClearDisplay()">ClearDisplay</button>
+</div>
+<script src="Mjijeni.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+#StoreName{
+    font-size: 2rem;
+    font-style: italic;
+    color: blue;
+    text-align: center;
+}
+body{
+
+    background-color: aqua;
+}
+.TT{
+    font-style: italic;
+    font-weight: bold;
+}
+#Boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 45%;
+    height: 30%;
+    margin-top: 15%;
+    margin-left: 30%;
+
+}
+.Box{
+    border: 2px solid;
+    padding: 10px;
+}
+#Box1, #Box4{
+background-color: aquamarine;
+}
+#Box2, #Box3{
+background-color: antiquewhite;
+}
+#txtA1{
+    border-radius: 10px;
+    margin-left: 30%;
+}
+#Chart{
+    font-weight: bold;
+    font-style: italic;
+}
+#Chart{
+    margin-left: 30%;
+}
+#Calc{
+    margin-left: 80%;
+    background-color: aquamarine;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+}
+#clear{
+    margin-left: 80%;
+    background-color: aquamarine;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+}
+#buttons{
+    margin: auto;
+}
+#Mali{
+    margin-left: 47%;
+}
